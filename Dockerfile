@@ -10,6 +10,8 @@ COPY requirements.txt /code/
 
 # Install dependencies
 RUN apk add build-base \
+            zlib-dev \
+            libjpeg-turbo-dev \
             postgresql-dev \
             mariadb-dev && \
     pip install -r requirements.txt
