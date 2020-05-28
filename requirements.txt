@@ -4,3 +4,4 @@ mysqlclient
 dj-database-url
 Pillow
 whitenoise
+markdown
