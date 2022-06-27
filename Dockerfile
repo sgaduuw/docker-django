@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM --platform=$BUILDPLATFORM python:3-alpine
 
 # Set environment variables
 ENV PYTHONUNBUFFERED 1
